@@ -62,20 +62,26 @@
                 }
             }
 
-            List<Car> orderedCars = catalog.Cars.OrderBy(car => car.Brand).ToList();
-            Console.WriteLine("Cars:");
-            foreach (Car car in orderedCars)
+            if (catalog.Cars.Count > 0)
             {
-                Console.WriteLine($"{car.Brand}: {car.Model} - {car.HorsePower}hp");
+                List<Car> orderedCars = catalog.Cars.OrderBy(car => car.Brand).ToList();
+                Console.WriteLine("Cars:");
+                foreach (Car car in orderedCars)
+                {
+                    Console.WriteLine($"{car.Brand}: {car.Model} - {car.HorsePower}hp");
+                }
             }
-
-            List<Truck> orderedTrucks = catalog.Trucks.OrderBy(truck => truck.Brand).ToList();
-            Console.WriteLine("Trucks:");
-            foreach (Truck truck in orderedTrucks)
+            
+            if (catalog.Trucks.Count > 0)
             {
-                Console.WriteLine($"{truck.Brand}: {truck.Model} - {truck.Weight}kg");
+                List<Truck> orderedTrucks = catalog.Trucks.OrderBy(truck => truck.Brand).ToList();
+                Console.WriteLine("Trucks:");
+                foreach (Truck truck in orderedTrucks)
+                {
+                    Console.WriteLine($"{truck.Brand}: {truck.Model} - {truck.Weight}kg");
+                }
             }
-
+            
         }
     }
 }

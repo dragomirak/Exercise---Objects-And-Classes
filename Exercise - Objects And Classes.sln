@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05.TeamworkProjects", "P05
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06.VehicleCatalogue", "P06.VehicleCatalogue\P06.VehicleCatalogue.csproj", "{4220D7DE-90D0-416E-8FEB-B227EC7862D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07.OrderByAge", "P07.OrderByAge\P07.OrderByAge.csproj", "{9F3599F3-D174-44A5-AD9E-8D70FAEC60B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{4220D7DE-90D0-416E-8FEB-B227EC7862D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4220D7DE-90D0-416E-8FEB-B227EC7862D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4220D7DE-90D0-416E-8FEB-B227EC7862D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F3599F3-D174-44A5-AD9E-8D70FAEC60B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F3599F3-D174-44A5-AD9E-8D70FAEC60B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F3599F3-D174-44A5-AD9E-8D70FAEC60B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F3599F3-D174-44A5-AD9E-8D70FAEC60B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
